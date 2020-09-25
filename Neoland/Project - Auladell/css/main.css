@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: tahoma;
+  margin-bottom: 50px;
+}
+header {
+  background: url("../img/Untitled.png") center;
+  background-size: cover;
+  height: 300px;
+  font-size: 30px;
+  color: white;
+  text-shadow: black;
+  /*vertical-align: middle;*/
+  /*text-align: center;*/
+}
+.headerphoto {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.bannerdiv {
+  position: absolute;
+  top: 50px;
+  left: 20%;
+}
+a {
+  text-decoration: none;
+}
+
+ol {
+  line-height: 3em;
+  list-style-type: none;
+  padding: 0%;
+  margin: 0px;
+}
+.divinheader {
+  left: 50%;
+  margin-left: -150px;
+  top: 50%;
+  margin-top: -50px;
+}
+
+img.headerphoto {
+  width: 200px;
+}
+h1.headerphoto {
+  padding-left: 20px;
+  font-size: 100px;
+}
+
+.content {
+  float: left;
+  width: 70%;
+  max-width: 50%;
+  text-align: justify;
+}
+
+.menu {
+  text-align: left;
+  float: left;
+  width: 30%;
+  padding-left: 505px;
+  margin: 0 auto;
+}
+
+footer {
+  /* position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 2.5em; /* Footer height
+  */
+
+  position: absolute;
+  height: 50px;
+
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.contentcouponsrow1 {
+  display: flex;
+  /*  margin-left: 20px;
+  margin-top: 40px;*/
+}
+.contentcouponsrow2 {
+  display: flex;
+  /*  margin-left: 20px;
+    margin-top: 40px;*/
+}
+.couponbox {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(207, 202, 202);
+  border-color: rgb(128, 124, 124);
+  border: 2px;
+}
+main {
+  height: 1300px;
+  margin: 0px;
+}
